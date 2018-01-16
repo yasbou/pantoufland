@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="nav-wrapper grey darken-3">
+          <a href="#" class="brand-logo">L'affrontement spatial</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">Films</a></li>
+            <li><a href="">Personnages</a></li>
+            <li><a href="">Planètes</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col s12">
+          <ul id="list" class="collapsible" data-collapsible="accordion">
+            <!-- <li>
+              <div class="collapsible-header"><i class="material-icons">star_half</i>Le nom du premier film</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">star_half</i>Le nom du second film</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">star_half</i>Le nom du 3ième film</div>
+              <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });
+    </script>
+    <script src="./app.js"></script>
+  </body>
+</html>
